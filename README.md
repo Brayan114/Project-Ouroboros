@@ -84,22 +84,25 @@ python -m http.server 8000 --directory web
 
 ---
 
-## 📄 Research Whitepaper
+## 📄 Research Whitepapers
 
-The full 7-page technical research paper is available on Zenodo and in the repository:  
-🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21747669](https://zenodo.org/records/21747669)  
-📄 **Markdown Paper**: [docs/paper/project_ouroboros_whitepaper.md](docs/paper/project_ouroboros_whitepaper.md)
+1. **Phase 1 Whitepaper** (Memory Compression, HIT Indirection & PIM):  
+   🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21747669](https://zenodo.org/records/21747669)  
+   📄 **Markdown Paper**: [docs/paper/project_ouroboros_whitepaper.md](docs/paper/project_ouroboros_whitepaper.md)
 
-### Citation Format
+2. **Phase 2 Whitepaper** (Block-Floating-Point, Compressed-Domain PIM & Ramulator 2.1):  
+   📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase2_whitepaper.md](docs/paper/project_ouroboros_phase2_whitepaper.md)
+
+### Citation Format (Phase 2)
 ```bibtex
-@article{osinaka2026ouroboros,
-  title={Project Ouroboros: A Unified Memory-Centric Architecture Fusing Hardware Memory Compression, Sub-Nanosecond Indirection, and Processing-In-Memory},
+@article{osinaka2026ouroboros_phase2,
+  title={Project Ouroboros Phase 2: Block-Floating-Point Quantization, Compressed-Domain Processing-in-Memory, and Cycle-Accurate Hardware Simulation},
   author={Osinaka, Brayan},
-  journal={Zenodo Preprints},
-  doi={10.5281/zenodo.21747669},
+  journal={Project Ouroboros Technical R&D},
   year={2026}
 }
 ```
+
 
 
 ---
