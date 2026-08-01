@@ -1,0 +1,16 @@
+# Python Cache & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+venv/
+.venv/
+env/
+
+# Conversation transcripts / Raw exports
+Shrinking-Hardware,-Expanding-Power.md
+Shrinking-Hardware,-Expanding-Power.pdf
+
+# OS junk files
+.DS_Store
+Thumbs.db
