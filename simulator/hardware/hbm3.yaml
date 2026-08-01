@@ -1,0 +1,47 @@
+# Ramulator 2.1 Configuration Profile: HBM3
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: HBM3
+    org:
+      preset: HBM3_16Gb
+      channel: 16           # 16 pseudo-channels per stack
+      rank: 1
+      bankgroup: 4
+      bank: 4
+      row: 32768
+      column: 64
+    timing:
+      preset: HBM3_6400
+      tCK: 0.3125           # nanoseconds (3200 MHz bus clock)
+      tCL: 40               # cycles (~12.5 ns CAS Read Latency)
+      tRCD: 40              # cycles (~12.5 ns RAS-to-CAS Delay)
+      tRP: 40               # cycles (~12.5 ns Row Precharge Delay)
+      tRAS: 90              # cycles (~28.125 ns Row Active Time)
+      tRC: 130             # cycles (~40.625 ns Row Cycle Time)
+      tWR: 80               # cycles (Write Recovery Time)
+      tRRD_S: 6             # cycles (Row Active to Row Active Short)
+      tRRD_L: 10            # cycles (Row Active to Row Active Long)
+      tWTR_S: 8             # cycles (Write to Read Delay Short)
+      tWTR_L: 24            # cycles (Write to Read Delay Long)
+      tCCD_S: 4             # cycles (CAS to CAS Delay Short)
+      tCCD_L: 8             # cycles (CAS to CAS Delay Long)
+      tRFC: 560             # cycles (Refresh Cycle Time)
+  Controller:
+    impl: HBM3Controller
+    queue_size: 32
+    queue_latency_cycles: 4
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: PerBank
+    plugins:
+      AddrMapper:
+        impl: RoBgBaCoCh
+      PowerModel:
+        impl: OuroborosSiliconInterposerPower
+        pcb_bus_capacitance_pf: 0.8
+        vdd_volts: 0.4
+        active_bus_energy_pj_per_byte: 4.0
+        static_power_mw: 180.0

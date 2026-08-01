@@ -1,0 +1,47 @@
+# Ramulator 2.1 Configuration Profile: DDR5-6400
+MemorySystem:
+  impl: GenericDRAM
+  clock_ratio: 1
+  DRAM:
+    impl: DDR5
+    org:
+      preset: DDR5_8Gb_x8
+      channel: 2
+      rank: 1
+      bankgroup: 8
+      bank: 4
+      row: 65536
+      column: 1024
+    timing:
+      preset: DDR5_6400
+      tCK: 0.3125           # nanoseconds (3200 MHz bus clock)
+      tCL: 45               # cycles (~14.06 ns CAS Read Latency)
+      tRCD: 45              # cycles (~14.06 ns RAS-to-CAS Delay)
+      tRP: 45               # cycles (~14.06 ns Row Precharge Delay)
+      tRAS: 102             # cycles (~31.875 ns Row Active Time)
+      tRC: 147              # cycles (~45.9375 ns Row Cycle Time)
+      tWR: 96               # cycles (Write Recovery Time)
+      tRRD_S: 8             # cycles (Row Active to Row Active Short)
+      tRRD_L: 12            # cycles (Row Active to Row Active Long)
+      tWTR_S: 10            # cycles (Write to Read Delay Short)
+      tWTR_L: 32            # cycles (Write to Read Delay Long)
+      tCCD_S: 8             # cycles (CAS to CAS Delay Short)
+      tCCD_L: 16            # cycles (CAS to CAS Delay Long / Bank Group Conflict)
+      tRFC: 944             # cycles (Refresh Cycle Time)
+  Controller:
+    impl: Generic
+    queue_size: 64
+    queue_latency_cycles: 6
+    Scheduler:
+      impl: FRFCFS
+    RefreshManager:
+      impl: AllBank
+    plugins:
+      AddrMapper:
+        impl: RoBgBaCoCh
+      PowerModel:
+        impl: OuroborosPCBBusPower
+        pcb_bus_capacitance_pf: 12.0
+        vdd_volts: 1.1
+        active_bus_energy_pj_per_byte: 25.0
+        static_power_mw: 450.0

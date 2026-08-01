@@ -2,6 +2,7 @@
 from .entropy import calculate_entropy, is_high_entropy
 from .bdi import BDICompressor, BDIResult
 from .fpc import FPCCompressor, FPCResult
+from .bfp import BFPCompressor, BFPResult, BFPBlock
 
 __all__ = [
     "calculate_entropy",
@@ -10,4 +11,7 @@ __all__ = [
     "BDIResult",
     "FPCCompressor",
     "FPCResult",
+    "BFPCompressor",
+    "BFPResult",
+    "BFPBlock",
 ]
