@@ -3,10 +3,12 @@
 > **A Unified Memory-Centric Computing Architecture Fusing Hardware Memory Compression, Sub-Nanosecond Indirection, and Processing-In-Memory**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![DOI: 10.5281/zenodo.21747669](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21747669-blue.svg)](https://zenodo.org/records/21747669)
+[![DOI Phase 1: 10.5281/zenodo.21747669](https://img.shields.io/badge/DOI%20Phase%201-10.5281%2Fzenodo.21747669-blue.svg)](https://zenodo.org/records/21747669)
+[![DOI Phase 2: 10.5281/zenodo.21748883](https://img.shields.io/badge/DOI%20Phase%202-10.5281%2Fzenodo.21748883-purple.svg)](https://zenodo.org/records/21748883)
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-cyan.svg)](https://www.python.org/)
 [![Status: Production R&D](https://img.shields.io/badge/Status-Production%20R%2D-emerald.svg)](#)
 [![Author: Brayan Osinaka](https://img.shields.io/badge/Author-Brayan%20Osinaka-purple.svg)](#)
+
 
 
 ---
@@ -91,6 +93,7 @@ python -m http.server 8000 --directory web
    📄 **Markdown Paper**: [docs/paper/project_ouroboros_whitepaper.md](docs/paper/project_ouroboros_whitepaper.md)
 
 2. **Phase 2 Whitepaper** (Block-Floating-Point, Compressed-Domain PIM & Ramulator 2.1):  
+   🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21748883](https://zenodo.org/records/21748883)  
    📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase2_whitepaper.md](docs/paper/project_ouroboros_phase2_whitepaper.md)
 
 ### Citation Format (Phase 2)
@@ -98,10 +101,12 @@ python -m http.server 8000 --directory web
 @article{osinaka2026ouroboros_phase2,
   title={Project Ouroboros Phase 2: Block-Floating-Point Quantization, Compressed-Domain Processing-in-Memory, and Cycle-Accurate Hardware Simulation},
   author={Osinaka, Brayan},
-  journal={Project Ouroboros Technical R&D},
+  journal={Zenodo Preprints},
+  doi={10.5281/zenodo.21748883},
   year={2026}
 }
 ```
+
 
 
 
