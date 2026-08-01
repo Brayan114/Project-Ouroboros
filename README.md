@@ -3,9 +3,11 @@
 > **A Unified Memory-Centric Computing Architecture Fusing Hardware Memory Compression, Sub-Nanosecond Indirection, and Processing-In-Memory**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![DOI: 10.5281/zenodo.21747669](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21747669-blue.svg)](https://zenodo.org/records/21747669)
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-cyan.svg)](https://www.python.org/)
 [![Status: Production R&D](https://img.shields.io/badge/Status-Production%20R%2D-emerald.svg)](#)
 [![Author: Brayan Osinaka](https://img.shields.io/badge/Author-Brayan%20Osinaka-purple.svg)](#)
+
 
 ---
 
@@ -84,18 +86,21 @@ python -m http.server 8000 --directory web
 
 ## 📄 Research Whitepaper
 
-The full 7-page technical research paper is available in the repository:  
-📄 **[docs/paper/project_ouroboros_whitepaper.md](docs/paper/project_ouroboros_whitepaper.md)**
+The full 7-page technical research paper is available on Zenodo and in the repository:  
+🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21747669](https://zenodo.org/records/21747669)  
+📄 **Markdown Paper**: [docs/paper/project_ouroboros_whitepaper.md](docs/paper/project_ouroboros_whitepaper.md)
 
 ### Citation Format
 ```bibtex
 @article{osinaka2026ouroboros,
   title={Project Ouroboros: A Unified Memory-Centric Architecture Fusing Hardware Memory Compression, Sub-Nanosecond Indirection, and Processing-In-Memory},
   author={Osinaka, Brayan},
-  journal={Project Ouroboros Technical R&D},
+  journal={Zenodo Preprints},
+  doi={10.5281/zenodo.21747669},
   year={2026}
 }
 ```
+
 
 ---
 
