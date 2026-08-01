@@ -5,9 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![DOI Phase 1: 10.5281/zenodo.21747669](https://img.shields.io/badge/DOI%20Phase%201-10.5281%2Fzenodo.21747669-blue.svg)](https://zenodo.org/records/21747669)
 [![DOI Phase 2: 10.5281/zenodo.21748883](https://img.shields.io/badge/DOI%20Phase%202-10.5281%2Fzenodo.21748883-purple.svg)](https://zenodo.org/records/21748883)
+[![DOI Phase 3: 10.5281/zenodo.21749736](https://img.shields.io/badge/DOI%20Phase%203-10.5281%2Fzenodo.21749736-emerald.svg)](https://zenodo.org/records/21749736)
 [![Python: 3.9+](https://img.shields.io/badge/Python-3.9%2B-cyan.svg)](https://www.python.org/)
 [![Status: Production R&D](https://img.shields.io/badge/Status-Production%20R%2D-emerald.svg)](#)
 [![Author: Brayan Osinaka](https://img.shields.io/badge/Author-Brayan%20Osinaka-purple.svg)](#)
+
 
 
 
@@ -109,6 +111,7 @@ python -m http.server 8000 --directory web
    📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase2_whitepaper.md](docs/paper/project_ouroboros_phase2_whitepaper.md)
 
 3. **Phase 3 Whitepaper** (Synthesizable SystemVerilog Silicon Architecture):  
+   🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21749736](https://zenodo.org/records/21749736)  
    📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase3_whitepaper.md](docs/paper/project_ouroboros_phase3_whitepaper.md)
 
 ### Citation Format (Phase 3)
@@ -116,10 +119,12 @@ python -m http.server 8000 --directory web
 @article{osinaka2026ouroboros_phase3,
   title={Project Ouroboros Phase 3: Synthesizable SystemVerilog Silicon Architecture and Sub-Nanosecond Gate-Level Hardware Synthesis},
   author={Osinaka, Brayan},
-  journal={Project Ouroboros Technical R&D},
+  journal={Zenodo Preprints},
+  doi={10.5281/zenodo.21749736},
   year={2026}
 }
 ```
+
 
 
 
