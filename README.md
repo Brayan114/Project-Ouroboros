@@ -108,16 +108,19 @@ python -m http.server 8000 --directory web
    🌐 **Zenodo DOI Record**: [https://zenodo.org/records/21748883](https://zenodo.org/records/21748883)  
    📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase2_whitepaper.md](docs/paper/project_ouroboros_phase2_whitepaper.md)
 
-### Citation Format (Phase 2)
+3. **Phase 3 Whitepaper** (Synthesizable SystemVerilog Silicon Architecture):  
+   📄 **Markdown Paper**: [docs/paper/project_ouroboros_phase3_whitepaper.md](docs/paper/project_ouroboros_phase3_whitepaper.md)
+
+### Citation Format (Phase 3)
 ```bibtex
-@article{osinaka2026ouroboros_phase2,
-  title={Project Ouroboros Phase 2: Block-Floating-Point Quantization, Compressed-Domain Processing-in-Memory, and Cycle-Accurate Hardware Simulation},
+@article{osinaka2026ouroboros_phase3,
+  title={Project Ouroboros Phase 3: Synthesizable SystemVerilog Silicon Architecture and Sub-Nanosecond Gate-Level Hardware Synthesis},
   author={Osinaka, Brayan},
-  journal={Zenodo Preprints},
-  doi={10.5281/zenodo.21748883},
+  journal={Project Ouroboros Technical R&D},
   year={2026}
 }
 ```
+
 
 
 
